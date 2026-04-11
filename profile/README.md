@@ -2,18 +2,16 @@
 
 Freelance web & mobile development based in France.
 
-We build custom applications for clients — from static websites to full-stack platforms — using Flutter, Django, and Next.js.
+We build custom applications — from static websites to full-stack platforms — using Flutter, Django, and Next.js.
 
-### Active Projects
+### Our Work
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [Declia](https://declia.fr) | Platform for photographers | Flutter |
-| [Timux](https://timux.dev) | Multi-timer tracking platform | Flutter |
-| [Enrenement-MATH](https://enrenement-math.com) | E-commerce platform | Next.js |
-| [Les Jardins d'Anais](https://lesjardinsdanais.raida.fr) | Activity website | Django |
+- [raida.fr](https://raida.fr) — Portfolio
+- [declia.fr](https://declia.fr) — Platform for photographers
+- [timux.dev](https://timux.dev) — Multi-timer tracking platform
+- [enrenement-math.com](https://enrenement-math.com) — E-commerce platform
+- [lesjardinsdanais.raida.fr](https://lesjardinsdanais.raida.fr) — Activity website
 
 ### Contact
 
-- [raida.fr](https://raida.fr)
-- rgodet@raida.fr
+rgodet@raida.fr
