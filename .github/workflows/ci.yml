@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  # The only check required by the branch rules. This repository has no other
+  # check yet: add its jobs above and list them in ci-ok's needs, with the
+  # failure step of Raida-AE/template.
+  ci-ok:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "No checks yet."
